@@ -11,16 +11,16 @@ body {
   align-items: center;
 }
 
-#possible {
+#answer {
   padding: 0px 10px 10px 10px;
   font-size: 22px;
 }
 
-#possible>a:link, #possible>a:visited {
+#answer>a:link, #answer>a:visited {
   color: #538d4e;
   text-decoration: none;
 }
 
-#possible>a:hover {
+#answer>a:hover {
   text-decoration: underline;
 }

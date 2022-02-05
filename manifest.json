@@ -1,7 +1,7 @@
 {
-    "name": "Wordle Helper",
+    "name": "Wordle Solver",
     "description": "An extension to help you solve Wordles",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
@@ -30,7 +30,6 @@
                 "https://www.powerlanguage.co.uk/wordle/*"
             ],
             "js": [
-                "./util/wordlist.js",
                 "./util/solver.js"
             ]
         }

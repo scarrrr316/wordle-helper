@@ -11,9 +11,18 @@ body {
   align-items: center;
 }
 
-#answer {
-  padding: 0px 10px 10px 10px;
+#answer{
+  padding: 0px 10px 20px 10px;
   font-size: 22px;
+  border: none;
+  color: #538d4e;
+  background-color: #ffffff;
+}
+
+#answer>p{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 10px 10px 10px 10px;
 }
 
 #answer>a:link, #answer>a:visited {
@@ -21,6 +30,9 @@ body {
   text-decoration: none;
 }
 
-#answer>a:hover {
-  text-decoration: underline;
+#answer>p:hover, #answer>a:hover{
+  /* text-decoration: underline; */
+  background-color: #538d4e;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
 }

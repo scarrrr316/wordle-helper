@@ -5,7 +5,7 @@ const key_map = {
     enter:[3,1]
 };
 
-const answer = Array.from(JSON.parse(window.localStorage.gameState)['solution'])
+const answer = Array.from(JSON.parse(window.localStorage.getItem('nyt-wordle-state'))['solution'])
 
 for (let i = 0; i < 6; i++) {
     if (i >= 5) {

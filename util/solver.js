@@ -1,5 +1,5 @@
 function solve() {
-    return [JSON.parse(window.localStorage.gameState)['solution']]
+    return [JSON.parse(window.localStorage.getItem('nyt-wordle-state'))['solution']]
 }
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
